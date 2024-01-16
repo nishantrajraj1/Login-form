@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(212, 255, 255);
+
+}
+form{
+  width: 350px;
+  height: 400px;
+  /* background-color: #ccc; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  /* border: 1px solid rebeccapurple; */
+  
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+
+}
+
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+
